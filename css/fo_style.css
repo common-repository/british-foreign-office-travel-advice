@@ -1,0 +1,64 @@
+.fo-sidebar{width:100%; margin:0;}
+
+/* advice content */
+
+#fo-advice-content .fo-pubdate{float:right; font-size:80%; }
+
+#fo-advice-content h1, #fo-advice-content h2,#fo-advice-content h3, #fo-advice-content h4, #fo-advice-content h5 {font-size:130%; margin:5px 0 5px 20px;}
+
+/* accordion */
+
+
+
+#fo-advice-content .accordion {
+        margin: 0;
+        padding:10px;
+        height:20px;
+        border-top:#f0f0f0 1px solid;
+        background: #cccccc;
+        text-transform:uppercase;
+        color: #000;
+    }
+#fo-advice-content  .accordion-open {
+        background:#196d9a;
+        color: #fff;
+    }
+#fo-advice-content  .accordion-open span {
+        display:block;
+        float:right;
+        padding:10px;
+    }
+#fo-advice-content  .accordion-open span {
+        background:url(../img/minus.png) center center no-repeat;
+    }
+#fo-advice-content  .accordion-close span {
+        display:block;
+        float:right;
+        background:url(../img/plus.png) center center no-repeat;
+        padding:10px;
+    }
+#fo-advice-content div.container {
+        padding:0;
+        margin:0;
+    }
+#fo-advice-content  div.content {
+        background:#f0f0f0;
+        margin: 0;
+        padding:10px;
+
+    }
+#fo-advice-content  div.content ul, #fo-advice-content div.content p {
+        padding:0;
+        margin:0;
+        padding:3px;
+    }
+#fo-advice-content  div.content ul li {
+        list-style-position:inside;
+        line-height:25px;
+    }
+#fo-advice-content  div.content ul li a {
+        color:#555555;
+    }
+#fo-advice-content  code {
+        overflow:auto;
+    }
